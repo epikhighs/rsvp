@@ -5,7 +5,7 @@ import App from './App';
 const root = document.getElementById('root');
 const load = () => render((
   <AppContainer>
-    <App />
+    <App apple={3}/>
   </AppContainer>
 ), root);
 
