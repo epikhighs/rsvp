@@ -1,5 +1,9 @@
 import 'react';
 import './App.css';
+import {create} from 'microstates';
+import {Patient} from './data/rsvp';
+
+console.log(create(Patient, {nameFirst: 'foo'}));
 
 const App = ({apple}) => (
   <div className="App">

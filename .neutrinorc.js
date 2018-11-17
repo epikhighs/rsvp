@@ -6,6 +6,9 @@ module.exports = (neutrino) => {
         title: 'rsvp'
       },
       hot: true,
+      minify: {
+        babel: false,
+      }
     }
   ]);
   neutrino.use([
