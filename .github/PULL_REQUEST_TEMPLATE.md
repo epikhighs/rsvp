@@ -4,5 +4,7 @@ about: A template for creating pull requests
 labels: bug, enhancement
 ---
 
-yaml
+yaml2
 {{author}} 
+{{AUTHOR}} 
+{{name}}
