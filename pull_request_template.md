@@ -2,6 +2,8 @@
 
 {{commits}}
 
+{{author}}
+
 ## Description
 
 {{title}}
